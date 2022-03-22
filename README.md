@@ -9,7 +9,7 @@
 #
 #### Test Result: PASS
 
-#### Step to automation :
+### Step to automation :
 #### 1. Open AVD/Device Manager : Nexus 6P API 27; Android 8.1 Google APIs; x86
 #### 2. Open Visual Studio Code
 #### 3. Open Folder FlightAPP
