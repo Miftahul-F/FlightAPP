@@ -14,7 +14,6 @@ ${APP_ACTIVITY}         com.example.myapplication.MainActivity
 
 *** Test Cases ***
 Login using valid username and password
-    Open Flight Application
     Click Login Button
     Wait Element Input Username and Password
     Input Username                  username=support@ngendigital.com
@@ -23,7 +22,6 @@ Login using valid username and password
     Verify Login Passed
 
 Login using invalid username 
-    Open Flight Application
     Click Login Button
     Wait Element Input Username and Password
     Input Username                  username=support@digital.com
@@ -58,7 +56,7 @@ Wait Element Input Username and Password
     Wait Until Element Is Visible   id=com.example.myapplication:id/username
 
 Verify Login Passed
-    Wait Until Element Is Visible   id=com.example.myapplication:id/textView
+    Wait Until Page Contains Element   id=com.example.myapplication:id/textView
 
 Verify Login Failed
     # Wait Until Page Contains                                                      Invalid username/password
