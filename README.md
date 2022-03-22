@@ -8,3 +8,4 @@
 #### 6. flightApp.apk
 #
 # Test Result: PASS
+# Run Test Search Flow : searchflightnumber.robot
